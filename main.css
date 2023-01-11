@@ -1,0 +1,58 @@
+/* Learn about CSS Order & Specifity */
+
+/* Q1 */
+.firstDiv {       /* 10 */
+    margin: 10px auto;
+    width: 70%;
+    background-color: green;
+}
+
+#FirstD {     /* 100 */
+    margin: 10px auto;
+    width: 60%;
+    background-color: dodgerblue;
+}
+
+/* Q2 */
+p {            /* 01 */
+    font-size: 16px;
+    text-align: center;
+}
+
+#FirstPFirstD {    /* 100 */
+    font-size: 22px;
+    color: orangered;
+}
+
+/* Q3 */
+ p {            /* 01 */
+    color: green;
+ }
+
+ .FirstPSecondD {   /* 10 */
+    color: gold;
+    font-size:larger;
+ }
+
+ /* Q4 */
+  p {     /* 01 */ 
+    font-weight: 500;
+  }
+
+  [lang] {   /* 10 */
+    font-weight: 800;
+    color: purple;
+  }
+
+/* Q5 */  /* last printed  first applied */
+[target] {     /* 10 */ 
+    font-size: 100px;
+    color: red;
+    background-color: dodgerblue;
+}
+.href {         /* 10 */
+    font-size: 50px;
+    color: yellow;
+    background-color: black;
+}
+
